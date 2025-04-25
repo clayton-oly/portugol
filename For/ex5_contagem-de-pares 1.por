@@ -1,11 +1,8 @@
 programa {
-  inteiro i
   funcao inicio() {
-    para(i=1; i<=10; i++){
+    para(inteiro i = 1; i <= 50; i++){
+      se(i % 2 == 0)
       escreva(i, "\n")
     }
-   
   }
 }
- 
- 
